@@ -1,0 +1,51 @@
+.grc_banner {
+  background: -webkit-linear-gradient(left, #FF015B 40%, #a0063d 50%, #600468 60%, #37003C);
+  height: 70vh;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url("../../assets/fonts/ProductSansBold.ttf");
+}
+
+/*remove fixed padding left when adding device support*/
+
+.left_heading {
+  color: #37003C;
+  padding-top: 18vh;
+  padding-left: 19em;
+}
+
+.left_heading_text {
+  font-weight: 680;
+  font-size: 3em;
+  font-family: Product Sans;
+}
+
+.right_heading {
+  color: #FF015B;
+  padding-top: 30vh;
+  padding-right:15em;
+  float: right;
+}
+.right_heading_text{
+  font-size: 2.2em;
+}
+.request_demo_btn{
+    background-color: #02FF94;
+    border-color: #02FF94;
+    color: black;
+    font-family: Product Sans;
+    font-size: 0.9em;
+}
+.demo_btn_pstn{
+    padding-top: 2em;
+    padding-left:19em;
+}
+.left_section{
+    float: left;
+}
+.btn{
+    border-radius: 0.1rem;
+}
+
