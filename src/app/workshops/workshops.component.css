@@ -24,13 +24,6 @@
   font-family: BrandonRegular;
 }
 
-.card_block {
-  padding-top: 1em;
-  padding-bottom: 3em;
-  padding-left: 9em;
-  padding-right: 9em;
-}
-
 .show_more_txt {
   float: left;
 }
@@ -38,21 +31,4 @@
 .show_more_icon {
   float: right;
   padding-left: 1em;
-}
-
-.card-img-top {
-  height: 12em;
-  width: 100%;
-}
-
-.card {
-  padding: 0px;
-  width: 99%;
-  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.1) !important;
-  -webkit-transform: translate3d(0, 0, 0) !important;
-  transform: translate3d(0, 0, 0) !important;
-  -webkit-transition: 0.2s linear !important;
-  transition: 0.2s linear !important;
-  -webkit-transition-property: -webkit-transform, all !important;
-  transition-property: transform, all !important;
 }
