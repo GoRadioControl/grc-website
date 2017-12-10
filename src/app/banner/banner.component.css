@@ -13,19 +13,19 @@
 .left_heading {
   color: #37003C;
   padding-top: 18vh;
-  padding-left: 19em;
+  padding-left: 15em;
 }
 
 .left_heading_text {
   font-weight: 680;
-  font-size: 3em;
+  font-size: 3.5em;
   font-family: Product Sans;
 }
 
 .right_heading {
   color: #FF015B;
   padding-top: 30vh;
-  padding-right:15em;
+  padding-right:12em;
   float: right;
 }
 .right_heading_text{
@@ -39,8 +39,8 @@
     font-size: 0.9em;
 }
 .demo_btn_pstn{
-    padding-top: 2em;
-    padding-left:19em;
+    padding-top: 1em;
+    padding-left:15em;
 }
 .left_section{
     float: left;
