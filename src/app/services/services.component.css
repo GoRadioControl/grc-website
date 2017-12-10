@@ -5,21 +5,23 @@
 .title_text {
   float: left;
   position: relative;
+  font-family: BrandonRegular;
 }
 
 .title_text::after {
   position: absolute;
   content: '';
-  width:80%;
+  width: 80%;
   border-bottom: 1px solid #FF015B;
   border-bottom-width: 0.2em;
   transform: translateX(-50%);
-  left:43%;
-  margin-top:1.8em;
+  left: 43%;
+  margin-top: 1.8em;
 }
 
 .show_more {
   float: right;
+  font-family: BrandonRegular;
 }
 
 .card_block {

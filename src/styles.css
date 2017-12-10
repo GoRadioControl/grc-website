@@ -1,4 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
-
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "~font-awesome/css/font-awesome.css";
+
+@font-face {
+    font-family: BrandonMedium;
+    src: url("/assets/fonts/BrandonText-Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: BrandonRegular;
+    src: url("/assets/fonts/BrandonText-Regular.otf") format("opentype");
+}

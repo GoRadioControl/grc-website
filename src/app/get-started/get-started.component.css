@@ -5,21 +5,23 @@
 .title_text {
   float: left;
   position: relative;
+  font-family: BrandonRegular;
 }
 
 .title_text::after {
   position: absolute;
   content: '';
-  width:80%;
+  width: 80%;
   border-bottom: 1px solid #FF015B;
   border-bottom-width: 0.2em;
   transform: translateX(-50%);
-  left:42%;
-  margin-top:1.8em;
+  left: 42%;
+  margin-top: 1.8em;
 }
 
 .show_more {
   float: right;
+  font-family: BrandonRegular;
 }
 
 .card_block {
@@ -27,4 +29,30 @@
   padding-bottom: 3em;
   padding-left: 9em;
   padding-right: 9em;
+}
+
+.show_more_txt {
+  float: left;
+}
+
+.show_more_icon {
+  float: right;
+  padding-left: 1em;
+}
+
+.card-img-top {
+  height: 12em;
+  width: 100%;
+}
+
+.card {
+  padding: 0px;
+  width: 99%;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.1) !important;
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
+  -webkit-transition: 0.2s linear !important;
+  transition: 0.2s linear !important;
+  -webkit-transition-property: -webkit-transform, all !important;
+  transition-property: transform, all !important;
 }

@@ -1,6 +1,12 @@
 .grc_banner {
   background: -webkit-linear-gradient(left, #FF015B 40%, #a0063d 50%, #600468 60%, #37003C);
   height: 70vh;
+  background-image: url("../../assets/images/BG_JPG.jpg");
+  width: 100%;
+  z-index: 0;
+  background-attachment: fixed;
+  background-position: center;
+
 }
 
 @font-face {
